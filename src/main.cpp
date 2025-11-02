@@ -6,10 +6,8 @@
 #include "Wallfollowerthread.h"
 #include "Sonarthread.h"
 #include "Laserthread.h"
-#include "ColisionAvoidanceNeuralNetworkThread.h"
 
 PioneerRobot *robo;
-NeuralNetwork *neuralNetwork;
 
 int main(int argc, char **argv)
 {
